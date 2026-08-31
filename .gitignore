@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Model binaries
+*.pkl
+*.joblib
+
+# Large / proprietary data
+data/ml/
+data/backtest/cache/
+data/backtest/outputs/
+data/reports/
+data/tracker/btst_signals.csv
+
+# Python build artifacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Local tool state
+.claude/

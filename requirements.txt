@@ -1,0 +1,22 @@
+﻿# DNS Options Scanner - Dependencies
+# Compatible with Python 3.12
+
+# Core
+python-dotenv>=1.0.0
+numpy>=1.26.4
+scipy>=1.13.0
+pandas>=2.2.0
+
+# Dhan API
+dhanhq>=1.3.2
+
+# Excel export
+openpyxl>=3.1.2
+
+# EDA / model-diagnostics notebook (notebooks/01_eda_and_validation.ipynb)
+matplotlib>=3.8.0
+seaborn>=0.13.0
+scikit-learn>=1.4.0
+xgboost>=2.0.0
+jupyter>=1.0.0
+
